@@ -9528,49 +9528,50 @@ header {
   display: block;
   background: url("../img/img-entete-320.jpg") no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 
-/* line 31, ../scss/app.scss */
+/* line 32, ../scss/app.scss */
 #attente {
   margin-top: 60px;
   letter-spacing: 1px;
   line-height: 1.2;
 }
 
-/* line 36, ../scss/app.scss */
+/* line 37, ../scss/app.scss */
 #slogan {
   margin-bottom: 60px;
 }
-/* line 37, ../scss/app.scss */
+/* line 38, ../scss/app.scss */
 #slogan p {
   font-weight: 700;
   font-size: 1.4em;
 }
-/* line 41, ../scss/app.scss */
+/* line 42, ../scss/app.scss */
 #slogan #ital {
   font-weight: 900;
 }
 
-/* line 46, ../scss/app.scss */
+/* line 47, ../scss/app.scss */
 #zone-form {
   margin-bottom: 60px;
 }
-/* line 47, ../scss/app.scss */
+/* line 48, ../scss/app.scss */
 #zone-form #annonce {
   margin-bottom: 20px;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 55, ../scss/app.scss */
 #texte p {
   margin-bottom: 16px;
   line-height: 2;
 }
-/* line 58, ../scss/app.scss */
+/* line 59, ../scss/app.scss */
 #texte #signature {
   color: #FF5034;
   font-weight: 900;
 }
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 #texte #note {
   font-size: 0.9em;
   color: #6e6e6e;
@@ -9578,21 +9579,21 @@ header {
   margin-bottom: 60px;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 footer #bt-prete-2 {
   text-align: center;
 }
-/* line 73, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 footer #copyright {
   color: #6e6e6e;
   text-align: center;
 }
-/* line 77, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 footer #social {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-/* line 83, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 footer #social #ico-fb a:link {
   display: block;
   background-image: url("../img/ico-fb.svg");
@@ -9602,7 +9603,7 @@ footer #social #ico-fb a:link {
   height: 44px;
   margin-left: auto;
 }
-/* line 94, ../scss/app.scss */
+/* line 95, ../scss/app.scss */
 footer #social #ico-insta a:link {
   display: block;
   background-image: url("../img/ico-insta.svg");
@@ -9616,37 +9617,37 @@ footer #social #ico-insta a:link {
 /* ------- MEDIUM SCREENS ----------------
 ---------------------------------- */
 @media only screen and (min-width: 40.063em) {
-  /* line 112, ../scss/app.scss */
+  /* line 113, ../scss/app.scss */
   body {
     font-size: 18px;
   }
 
-  /* line 117, ../scss/app.scss */
+  /* line 118, ../scss/app.scss */
   header {
     height: 576px;
     background: url("../img/img-entete-768.jpg") no-repeat;
     background-size: cover;
   }
 
-  /* line 122, ../scss/app.scss */
+  /* line 123, ../scss/app.scss */
   #attente {
     margin-top: 100px;
   }
 
-  /* line 125, ../scss/app.scss */
+  /* line 126, ../scss/app.scss */
   #slogan {
     position: relative;
     margin-bottom: 100px;
   }
-  /* line 127, ../scss/app.scss */
+  /* line 128, ../scss/app.scss */
   #slogan p {
     font-size: 1.8em;
   }
-  /* line 130, ../scss/app.scss */
+  /* line 131, ../scss/app.scss */
   #slogan #ital {
     font-weight: 900;
   }
-  /* line 133, ../scss/app.scss */
+  /* line 134, ../scss/app.scss */
   #slogan img {
     position: absolute;
     top: 20px;
@@ -9654,48 +9655,71 @@ footer #social #ico-insta a:link {
     width: 52%;
   }
 
-  /* line 141, ../scss/app.scss */
+  /* line 142, ../scss/app.scss */
   #zone-form {
     margin-bottom: 100px;
   }
-  /* line 142, ../scss/app.scss */
+  /* line 143, ../scss/app.scss */
   #zone-form #annonce {
     text-align: center;
   }
-  /* line 149, ../scss/app.scss */
+  /* line 150, ../scss/app.scss */
   #zone-form #form #inputs {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
-  /* line 155, ../scss/app.scss */
+  /* line 156, ../scss/app.scss */
   #zone-form #form input[type="text"] {
     height: 50px;
+  }
+
+  /* line 166, ../scss/app.scss */
+  #texte #signature {
+    margin-top: 60px;
+    text-align: center;
+  }
+  /* line 172, ../scss/app.scss */
+  #texte #note {
+    text-align: center;
   }
 }
 /* ------- LARGE SCREENS ----------------
 ---------------------------------- */
 @media only screen and (min-width: 64.063em) {
-  /* line 168, ../scss/app.scss */
+  /* line 187, ../scss/app.scss */
   body {
-    font-size: 18px;
+    font-size: 20px;
   }
 
-  /* line 173, ../scss/app.scss */
+  /* line 192, ../scss/app.scss */
   header {
     height: 576px;
     background: url("../img/img-entete-1024.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
+  }
+
+  /* line 200, ../scss/app.scss */
+  #slogan p {
+    font-size: 2.2em;
+  }
+  /* line 206, ../scss/app.scss */
+  #slogan img {
+    position: absolute;
+    top: 30px;
+    left: 440px;
   }
 }
 /* ------- X-LARGE SCREENS ----------------
 ---------------------------------- */
 @media only screen and (min-width: 90.063em) {
-  /* line 186, ../scss/app.scss */
+  /* line 222, ../scss/app.scss */
   header {
     height: 576px;
     background: url("../img/img-entete-xlarge.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 }
